@@ -1,0 +1,20 @@
+{
+  "buttons": {
+    "Arcade": [
+      { "image": "layout.webp" },
+      { "A": "A" },
+      { "B": "B" },
+      { "C": "C" },
+      { "D": "D" },
+      { "E": "E" }
+    ],
+    "PlayStation 2": [
+      { "A": "Square" },
+      { "B": "X" },
+      { "C": "Triangle" },
+      { "D": "Circle" },
+      { "E": "R1" }
+    ]
+  },
+  "hasUpgrades": false
+}
