@@ -104,7 +104,7 @@
     "portuguese": {
       "suitsDiamond": "Pode ser seguido de ♠ ou ♥ ou ♣ como parte de uma sequência de 3 ataques",
       "suitsSpade": "Pode ser seguido de ♦ ou ♥ ou ♣ como parte de uma sequência de 3 ataques",
-      "suitsHeart": "Pode ser seguido de ♦ ou ♣ ou ♠ como parte de uma sequência de 3 ataques",
+      "suitsHeart": "Pode ser seguido de ♦ ou ♣ ou ♠ como parte de uma sequência de 3 ataques, mas só como primeiro ou segundo ataque",
       "suitsHeartFollowup": "Só pode ser feito se ♥ foi usado como segunda ou terceira parte de uma sequência de 3 ataques",
       "suitsClub": "Pode ser seguido de ♦ ou ♥ ou ♠ como parte de uma sequência de 3 ataques",
       "fourSuitsDelay": "versão com [C] pode ser atrasada segurando o botão"
