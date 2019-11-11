@@ -1,0 +1,113 @@
+{
+  "names": {
+    "default": {
+      "roman": "Oswald"
+    },
+    "japan": {
+      "roman": "Oswald",
+      "original": "オズワルド"
+    }
+  },
+  "images": {
+    "face": "oswald.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "2",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "10",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "J",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Q",
+        "input": ":dp:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "K",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "♠",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{suitsSpade}"
+      },
+      {
+        "name": "♤",
+        "input": ":qcb:+[A] {or} [C]",
+        "after": "♠"
+      },
+      {
+        "name": "♦",
+        "input": ":qcf:+[A] {or} [C]",
+        "extraInfo": "{suitsDiamond}"
+      },
+      {
+        "name": "♢",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "♦"
+      },
+      {
+        "name": "♣",
+        "input": ":qcb:+[B] {or} [D]",
+        "extraInfo": "{suitsClub}"
+      },
+      {
+        "name": "♥",
+        "input": ":qcf:+[B] {or} [D]",
+        "extraInfo": "{suitsHeart}"
+      },
+      {
+        "name": "A",
+        "input": ":qcf:+[E]",
+        "after": "♥",
+        "extraInfo": "{suitsHeartFollowup}"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "♠♥♦♣",
+        "input": ":qcf::df::qcb:+[A] {or} [C]",
+        "extraInfo": "{fourSuitsDelay}"
+      },
+      {
+        "name": "10 J Q K A",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "JOKER",
+        "input": "{charge} :b: :f::b::f:+[E]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "suitsDiamond": "Can be followed up with ♠ or ♥ or ♣ as part of a 3-attack chain",
+      "suitsSpade": "Can be followed up with ♦ or ♥ or ♣ as part of a 3-attack chain",
+      "suitsHeart": "Can be followed up with ♦ or ♣ or ♠ as part of a 3-attack chain, but only as the 1st or 2nd attack",
+      "suitsHeartFollowup": "Can only be used if ♥ was the 2nd or 3rd attack of a 3-attack chain",
+      "suitsClub": "Can be followed up with ♦ or ♥ or ♠ as part of a 3-attack chain",
+      "fourSuitsDelay": "Version with [C] can be delayed by holding down the button"
+    },
+    "portuguese": {
+      "suitsDiamond": "Pode ser seguido de ♠ ou ♥ ou ♣ como parte de uma sequência de 3 ataques",
+      "suitsSpade": "Pode ser seguido de ♦ ou ♥ ou ♣ como parte de uma sequência de 3 ataques",
+      "suitsHeart": "Pode ser seguido de ♦ ou ♣ ou ♠ como parte de uma sequência de 3 ataques",
+      "suitsHeartFollowup": "Só pode ser feito se ♥ foi usado como segunda ou terceira parte de uma sequência de 3 ataques",
+      "suitsClub": "Pode ser seguido de ♦ ou ♥ ou ♠ como parte de uma sequência de 3 ataques",
+      "fourSuitsDelay": "versão com [C] pode ser atrasada segurando o botão"
+    }
+  }
+}
