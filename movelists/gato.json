@@ -1,0 +1,107 @@
+{
+  "names": {
+    "default": {
+      "roman": "Gato"
+    },
+    "japan": {
+      "roman": "Gato",
+      "original": "牙刀"
+    }
+  },
+  "images": {
+    "face": "gato.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Danzetsutai",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Saigaku",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Murangeri",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shinga",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Totsuga",
+        "input": ":f::f:+[A] {or} [C]",
+        "after": "Shinga"
+      },
+      {
+        "name": "Fuga",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Koga",
+        "input": "{press} [A]",
+        "after": "Fuga"
+      },
+      {
+        "name": "Senga",
+        "input": "{press} [B]",
+        "after": "Fuga"
+      },
+      {
+        "name": "Kyuga",
+        "input": "{press} [C]",
+        "after": "Fuga"
+      },
+      {
+        "name": "Katsuga",
+        "input": "{press} [D]",
+        "after": "Fuga"
+      },
+      {
+        "name": "Ura Fuga",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shunga",
+        "input": "{press} [A]",
+        "after": "Ura Fuga"
+      },
+      {
+        "name": "Oga",
+        "input": "{press} [B]",
+        "after": "Ura Fuga"
+      },
+      {
+        "name": "Muga",
+        "input": "{press} [C]",
+        "after": "Ura Fuga"
+      },
+      {
+        "name": "Roga",
+        "input": "{press} [D]",
+        "after": "Ura Fuga"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Reiga",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryuga",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Tenryu Retsuga",
+        "input": ":dp:+[E] > :dp:+[E] > :dp:+[E]"
+      }
+    ]
+  }
+}
