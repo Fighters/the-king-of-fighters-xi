@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Duo Lon"
+    },
+    "japan": {
+      "roman": "Duo Lon",
+      "original": "デュオロン"
+    }
+  },
+  "images": {
+    "face": "duolon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Suishu - Shoko",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Benpatsuken",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Fukatenshi",
+        "input": ":df:+[D]"
+      },
+      {
+        "name": "Raikatenshi",
+        "input": ":df:+[D] > [E]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Shaki Juryu",
+        "input": ":qcf:+[A] {or} [C] ({upTo3x})"
+      },
+      {
+        "name": "Onpei Ryujinha",
+        "input": ":qcf:+[A] > :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Shiryo Hasseikin",
+        "input": ":qcf:+[A] > :f:+[B] {or} [D] > :qcb:+[C]"
+      },
+      {
+        "name": "Genmukyaku",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Genma Hisho Keiko",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Suishu - Makyakuho",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Himokyaku",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hiden - Genmu Juon Shikon",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hiden - Genmu Onryoheki",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hiden - Genmukyaku",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Ogi - Taju Genmu Ankei",
+        "input": "[A] > [C] > [B] > [D]"
+      }
+    ]
+  }
+}
