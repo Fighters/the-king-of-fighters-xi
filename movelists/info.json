@@ -6,14 +6,16 @@
       { "B": "B" },
       { "C": "C" },
       { "D": "D" },
-      { "E": "E" }
+      { "E": "E" },
+      { "taunt": "taunt"}
     ],
     "PlayStation 2": [
       { "A": "Square" },
       { "B": "X" },
       { "C": "Triangle" },
       { "D": "Circle" },
-      { "E": "R1" }
+      { "E": "R1" },
+      { "taunt": "L1"}
     ]
   },
   "hasUpgrades": false
