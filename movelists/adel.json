@@ -1,0 +1,70 @@
+{
+  "names": {
+    "default": {
+      "roman": "Adel"
+    },
+    "japan": {
+      "roman": "Adel",
+      "original": "アーデルハイド・バーンシュタイン"
+    }
+  },
+  "images": {
+    "face": "adel.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Drücken",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "A. Kunst Eins",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "A. Kunst Zwei",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "A. Kunst Vier",
+        "input": ":b:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "G. Wand",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "G. Kicken",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "G. Drücken",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "G. Prinzessin",
+        "input": ":qcf:+[taunt]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "G. Kreis",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "G. Kronprinz",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "G. Sklaven",
+        "input": ":qcf::df::qcb: {or} :qcb::db::qcf:+[E]"
+      }
+    ]
+  }
+}
