@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kula"
+    },
+    "japan": {
+      "roman": "Kula",
+      "original": "クーラ・ダイアモンド"
+    }
+  },
+  "images": {
+    "face": "kula.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ice Coffin",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "One Inch",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Slider Shoot",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "Critical Ice",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Diamond Breath",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Crow Bite",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Ray Spin",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Ray Spin (Stand)",
+        "input": ":f:+[B]",
+        "after": "Ray Spin"
+      },
+      {
+        "name": "Ray Spin (Sit)",
+        "input": ":f:+[D]",
+        "after": "Ray Spin"
+      },
+      {
+        "name": "Counter Shell",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Diamond Shoot",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Diamond Edge",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "MAX Diamond Edge",
+        "input": ":qcf::qcf:+[E]",
+        "extra": "{level2}"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Freeze Execution",
+        "input": ":qcb::qcb:+[E]"
+      }
+    ]
+  }
+}
