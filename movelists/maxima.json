@@ -82,7 +82,7 @@
     ],
     "{leaderDesperationMove}": [
       {
-        "name": "MX-II B Final Cannon",
+        "name": "MX-IIb Final Cannon",
         "input": ":hcb::f:+[E] ({hold} [E] {toCharge})"
       }
     ]
