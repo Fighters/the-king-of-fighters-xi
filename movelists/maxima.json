@@ -1,0 +1,98 @@
+{
+  "names": {
+    "default": {
+      "roman": "Maxima"
+    },
+    "japan": {
+      "roman": "Maxima",
+      "original": "マキシマ"
+    }
+  },
+  "images": {
+    "face": "maxima.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dynamite Drop",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Mongolian",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "M-9 Maxima Missile (Prototype)",
+        "input": ":df:+[C]"
+      },
+      {
+        "name": "Flying Shoulder",
+        "input": "{inAir}, :d:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "M-4 Vapor Cannon",
+        "input": ":qcb:+[A] {or} [C] ({hold} [A] {or} [C] {toCancel})"
+      },
+      {
+        "name": "M-19 Blitz Cannon",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "M-11 Dangerous Arch",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "System 1･2: Maxima Scramble",
+        "input": ":qcf:+[A] {or} [C]",
+        "extraInfo": "{maximaScrambleButton}"
+      },
+      {
+        "name": "Double Bomber",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "System 1･2: Maxima Scramble"
+      },
+      {
+        "name": "Bulldog Press",
+        "input": ":hcf:+[A] {or} [C]",
+        "after": "Double Bomber"
+      },
+      {
+        "name": "System 3: Maxima Lift",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Senton Press",
+        "input": ":f:+[B] {or} [D]",
+        "after": "System 3: Maxima Lift"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Bunker Buster",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Maxima Revenger",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "MX-II B Final Cannon",
+        "input": ":hcb::f:+[E] ({hold} [E] {toCharge})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "maximaScrambleButton": "The button used to start the Maxima Scramble must be used to perform the followups"
+    },
+    "portuguese": {
+      "maximaScrambleButton": "O botão usado para iniciar o Maxima Scramble deve ser o mesmo durante as continuações"
+    }
+  }
+}
