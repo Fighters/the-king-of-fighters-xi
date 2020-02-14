@@ -1,0 +1,94 @@
+{
+  "names": {
+    "default": {
+      "roman": "Tizoc"
+    },
+    "japan": {
+      "roman": "Griffon Mask",
+      "original": "グリフォンマスク"
+    }
+  },
+  "images": {
+    "face": "tizoc.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Griffon Tower",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Super Grid Kick",
+        "input": ":df:+[D]"
+      },
+      {
+        "name": "Upper Evasion Kick",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Olympus Over",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Breaking",
+        "input": ":qcb:+[D] > [A]+[B]"
+      },
+      {
+        "name": "Poseidon Wave",
+        "input": ":rdp:+[A] {or} [C]"
+      },
+      {
+        "name": "Breaking",
+        "input": ":rdp:+[C] > [A]+[B]"
+      },
+      {
+        "name": "Active Tupon",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Justice Hurricane",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hercules Throw",
+        "input": ":hcf:+[B]"
+      },
+      {
+        "name": "Icarus Crash",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Flying Olympus Over",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Big Fall Griffon",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Daedalus Attack",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Big Fall Griffon",
+        "input": ":hcb::hcb:+[E]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "griffallMoves": "after Griffon Tower, Olympus Over {or} Poseidon Wave"
+    },
+    "portuguese": {
+      "griffallMoves": "após Griffon Tower, Olympus Over {or} Poseidon Wave"
+    }
+  }
+}
