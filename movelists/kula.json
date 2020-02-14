@@ -72,7 +72,7 @@
       {
         "name": "MAX Diamond Edge",
         "input": ":qcf::qcf:+[E]",
-        "extra": "{level2}"
+        "extraInfo": "{level2}"
       }
     ],
     "{leaderDesperationMove}": [
