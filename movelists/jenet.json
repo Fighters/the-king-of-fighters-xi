@@ -55,7 +55,7 @@
       },
       {
         "name": "Harrier Bee",
-        "input": "{inAir}, :d:+[B] {or} [D] ({tap} [B] {or} [D] {toAttack})"
+        "input": "{inAir}, :d:+[B] {or} [D] ({tap} [B] {or} [D] {repeatedly} {toAttack})"
       }
     ],
     "{desperationMoves}": [
