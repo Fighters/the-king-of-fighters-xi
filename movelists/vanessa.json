@@ -1,0 +1,140 @@
+{
+  "names": {
+    "default": {
+      "roman": "Vanessa"
+    },
+    "japan": {
+      "roman": "Vanessa",
+      "original": "ヴァネッサ"
+    }
+  },
+  "images": {
+    "face": "vanessa.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dynamite Puncher",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "One-Two Puncher",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Sliding Puncher",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Machine Gun Puncher",
+        "input": ":hcf:+[A] {or} [C] ({tap} [A] {or} [C] {repeatedly} {forMoreHits})"
+      },
+      {
+        "name": "Dash Puncher",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Forbidden Eagle",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Puncher Weaving",
+        "input": ":qcb:+[A] {or} [C] ({hold} [A] {or} [C] {toExtend})",
+        "extraInfo": "{puncherWeavingFollowups}"
+      },
+      {
+        "name": "Parrying Puncher",
+        "input": ":b:+[A] {or} [C]",
+        "after": "Puncher Weaving"
+      },
+      {
+        "name": "Puncher Upper",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Puncher Weaving"
+      },
+      {
+        "name": "Puncher Vision (Backward)",
+        "input": ":b:+[B] {or} [D]",
+        "after": "Puncher Weaving"
+      },
+      {
+        "name": "Puncher Vision (Forward)",
+        "input": ":b:+[B] {or} [D]",
+        "after": "Puncher Weaving"
+      },
+      {
+        "name": "Puncher Vision (Backward)",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Puncher Upper",
+        "input": ":f:+[A]",
+        "after": "Puncher Vision (Backward)"
+      },
+      {
+        "name": "Puncher Straight",
+        "input": ":f:+[C]",
+        "after": "Puncher Vision (Backward)"
+      },
+      {
+        "name": "Puncher Weaving",
+        "input": ":b:+[A] {or} [C] ({hold} [A] {or} [C] {toExtend})",
+        "after": "Puncher Vision (Backward)"
+      },
+      {
+        "name": "Puncher Vision (Forward)",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Puncher Upper",
+        "input": ":f:+[A]",
+        "after": "Puncher Vision (Forward)"
+      },
+      {
+        "name": "Puncher Straight",
+        "input": ":f:+[C]",
+        "after": "Puncher Vision (Forward)"
+      },
+      {
+        "name": "Puncher Weaving",
+        "input": ":b:+[A] {or} [C] ({hold} [A] {or} [C] {toExtend})",
+        "after": "Puncher Vision (Forward)"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Champion Puncher",
+        "input": "{close}, :qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Crazy Puncher",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Max Puncher",
+        "input": ":qcf::qcf:+[E]"
+      },
+      {
+        "name": "Puncher Finish",
+        "input": ":qcf::qcf:+[C]+[E]",
+        "extraInfo": "{vanessaLdm}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "vanessaLdm": "Can only be performed during Champion Puncher or Crazy Puncher",
+      "puncherWeavingFollowups": "To perform the followups for this move, {hold} [A] {or} [C] {toExtend}"
+    },
+    "portuguese": {
+      "vanessaLdm": "Só pode ser feito durante Champion Puncher ou Crazy Puncher",
+      "puncherWeavingFollowups": "Para fazer as continuações deste golpe, {hold} [A] {or} [C] {toExtend}"
+    }
+  }
+}
