@@ -1,0 +1,79 @@
+{
+    "names": {
+      "default": {
+        "roman": "Malin"
+      },
+      "japan": {
+        "roman": "Malin",
+        "original": "まりん"
+      }
+    },
+    "images": {
+      "face": "malin.webp"
+    },
+    "moves": {
+      "{normalThrows}": [
+        {
+          "name": "Malin's Rocket",
+          "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+        }
+      ],
+      "{commandMoves}": [
+        {
+          "name": "Crimson Scorpion",
+          "input": ":f:+[B]"
+        }
+      ],
+      "{specialMoves}": [
+        {
+          "name": "Yellowjacket (Terrestrial)",
+          "input": ":qcf:+[A] {or} [C]"
+        },
+        {
+          "name": "Yellowjacket (Anti-Aerial)",
+          "input": ":dp:+[A] {or} [C]"
+        },
+        {
+            "name": "Yellowjacket (Aerial)",
+            "input": "{inAir}, {anyDirection}+[A]+[C]"
+        },
+        {
+          "name": "Yellowjacket (Direction Change)",
+          "input": "{duringYellowjacket}, {anyDirection}+[A]+[C] ({upTo2x})"
+        },
+        {
+          "name": "Poison Scorpion",
+          "input": ":qcf:+[B] {or} [D]"
+        },
+        {
+          "name": "Demon Arachnid",
+          "input": ":qcb:+[A] {or} [C]"
+        }
+      ],
+      "{desperationMoves}": [
+        {
+          "name": "Mayfly",
+          "input": ":qcf::qcf:+[B] {or} [D]"
+        },
+        {
+          "name": "Queen Bee",
+          "input": "{inAir}, :qcf::qcf:+[A] {or} [C]"
+        }
+      ],
+      "{leaderDesperationMove}": [
+        {
+          "name": "Smashing Salamander",
+          "input": ":qcf::qcf:+[E]"
+        }
+      ]
+    },
+    "custom_strings": {
+      "english": {
+        "duringYellowjacket": "during any other version of Yellowjacket"
+      },
+      "portuguese": {
+        "duringYellowjacket": "durante quaisquer outra versão do Yellowjacket"
+      }
+    }
+  }
+  
