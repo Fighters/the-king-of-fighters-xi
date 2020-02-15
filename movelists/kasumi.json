@@ -1,0 +1,78 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kasumi"
+    },
+    "japan": {
+      "roman": "Kasumi",
+      "original": "藤堂 香澄"
+    }
+  },
+  "images": {
+    "face": "kasumi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Makiage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hiji Ate",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kasane Ate",
+        "input": ":qcf:+[A] {or} [C] ({airOK})"
+      },
+      {
+        "name": "Senko Sagashi",
+        "input": ":qcb:+[A] {or} [C] ({upTo4x})"
+      },
+      {
+        "name": "Ogi Mizo Takayori Mukuru",
+        "input": ":qcb:+[A] {or} [C] > :qcb:+[A] {or} [C] > :qcb:+[A] {or} [C] > :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Tenchi Shuten",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Tatsumaki Soda",
+        "input": "{close}, :hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Messhin Muto",
+        "input": ":hcf:+[B]"
+      },
+      {
+        "name": "Sassho Inshu",
+        "input": ":hcf:+[D]"
+      },
+      {
+        "name": "Hanshin Morote Gaeshi",
+        "input": ":hcf:+[E]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Kasane Ate",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Shiranui",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Shingan Kuzu Otoshi",
+        "input": ":qcf::df::qcb:+[E]"
+      }
+    ]
+  }
+}
