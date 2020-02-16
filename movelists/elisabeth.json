@@ -1,0 +1,62 @@
+{
+  "names": {
+    "default": {
+      "roman": "Elisabeth"
+    },
+    "japan": {
+      "roman": "Elisabeth",
+      "original": "エリザベート・ブラントルシュ"
+    }
+  },
+  "images": {
+    "face": "elisabeth.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Maniêre",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Fidélité",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Fierra",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Étincelle",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Coup de Vent",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Platine Mirage",
+        "input": ":qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Grand Rafale",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Ciel Étoilé",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Noble Blanc",
+        "input": ":qcf::qcf:+[E]"
+      }
+    ]
+  }
+}
