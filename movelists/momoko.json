@@ -1,0 +1,181 @@
+{
+  "names": {
+    "default": {
+      "roman": "Momoko"
+    },
+    "japan": {
+      "roman": "Momoko",
+      "original": "桃子"
+    }
+  },
+  "images": {
+    "face": "momoko.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Fresh!",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Segundo Pulo",
+        "input": "{duringVerticalOrForwardJump}, :u: {or} :uf:"
+      },
+      {
+        "name": "Squishy Squashy Attack",
+        "input": "{inAir}, :d:+[B] {or} [D]"
+      },
+      {
+        "name": "Cabeçada",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Aú Batido",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Rasteira",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "Armada Martelo",
+        "input": ":f:+[D]"
+      },
+      {
+        "name": "Caveirinha",
+        "input": ":df:+[D] {or} :f:+[D] > [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Peach Attack",
+        "input": ":qcf:+[A] {or} [C] ({upTo3x})"
+      },
+      {
+        "name": "Folha",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Phoenix Arrow",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Bananeira Dois Golpes",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "{peachComboStarter}": [
+          {
+            "name": "Peach Combo Starter 1",
+            "input": "{close}, {press} [C]"
+          },
+          {
+            "name": "Peach Combo Starter 2",
+            "input": ":d:+[C]"
+          },
+          {
+            "name": "Aú Batido",
+            "input": "f:+[B]"
+          }
+        ]
+      },
+      {
+        "{peachComboLoop}": [
+          {
+            "name": "Armada Pulada",
+            "input": ":f:+[B] {or} [D]"
+          },
+          {
+            "name": "S Dobrado",
+            "input": ":b:+[A] {or} [C]"
+          },
+          {
+            "name": "Troca e Pião",
+            "input": ":d:+[B] {or} [D]"
+          },
+          {
+            "name": "Bananeira Dois Golpes",
+            "input": ":u:+[B] {or} [D]"
+          },
+          {
+            "name": "Reversão Sem Mão",
+            "input": ":f:+[A] {or} [C]"
+          }
+        ]
+      },
+      {
+        "{peachComboFinish}": [
+          {
+            "name": "Cabeçada",
+            "input": ":qcf:+[A] {or} [C]"
+          },
+          {
+            "name": "Folha",
+            "input": ":qcf:+[B]"
+          },
+          {
+            "name": "Caveirinha",
+            "input": ":qcf:+[D]"
+          },
+          {
+            "name": "Aú Toshtal",
+            "input": ":qcb:+[B] {or} [D]"
+          }
+        ]
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Become a Star～☆★",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Peach Combo DoReMi",
+        "input": ":qcf::qcf:+[B]"
+      },
+      {
+        "name": "Verse 1",
+        "input": "[A] > [C] > [E] > [B] > [A] > [C] > [E]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 2",
+        "input": "[A] > [C] > [E] > [B] > [A] > [C] > [D]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 3",
+        "input": "[A] > [C] > [E] > [B] > [D] > [C] > [E]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 4",
+        "input": "[A] > [C] > [E] > [D] > [A] > [B] > [D]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 5",
+        "input": "[A] > [C] > [E] > [D] > [A] > [C] > [E]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 6",
+        "input": "[A] > [C] > [E] > [C] > [D] > [B] > [D]",
+        "after": "Peach Combo DoReMi"
+      },
+      {
+        "name": "Verse 7",
+        "input": "[A] > [C] > [D] > [D] > [D] > [D]",
+        "after": "Peach Combo DoReMi"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Esper~!",
+        "input": ":qcf::qcf:+[E]"
+      }
+    ]
+  }
+}
