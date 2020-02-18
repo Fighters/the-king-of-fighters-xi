@@ -1,0 +1,226 @@
+{
+  "names": {
+    "default": {
+      "roman": "Gai"
+    },
+    "japan": {
+      "roman": "Gai",
+      "original": "天童 凱"
+    }
+  },
+  "images": {
+    "face": "gai.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Osotogari",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Palm Hook",
+        "input": ":f:+[C]"
+      },
+      {
+        "name": "Middle Kick",
+        "input": ":f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Back Tornado",
+        "input": ":f:+[D] > :b:+[D]"
+      },
+      {
+        "name": "Gai Wheel",
+        "input": ":f:+[D] > :u:"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":f:+[D] > :uf:"
+      },
+      {
+        "name": "Slider",
+        "input": ":f:+[D] > :d:"
+      },
+      {
+        "name": "Front Step",
+        "input": ":f:+[D] > :df:"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":u:",
+        "after": "Front Step"
+      },
+      {
+        "name": "Knee Upper",
+        "input": ":uf:",
+        "after": "Front Step"
+      },
+      {
+        "name": "Right Hook",
+        "input": ":f:+[D] > :f: {or} :f:+[C] > :f:"
+      },
+      {
+        "name": "Palm Hook",
+        "input": ":f:",
+        "after": "Right Hook"
+      },
+      {
+        "name": "Gai Wheel",
+        "input": ":u:",
+        "after": "Right Hook"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":uf:",
+        "after": "Right Hook"
+      },
+      {
+        "name": "Slider",
+        "input": ":d:",
+        "after": "Right Hook"
+      },
+      {
+        "name": "Back Knuckle",
+        "input": ":b:",
+        "after": "Right Hook"
+      },
+      {
+        "name": "Palm Hook",
+        "input": ":f:",
+        "after": "Back Knuckle"
+      },
+      {
+        "name": "Gai Wheel",
+        "input": ":u:",
+        "after": "Back Knuckle"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":uf:",
+        "after": "Back Knuckle"
+      },
+      {
+        "name": "Slider",
+        "input": ":d:",
+        "after": "Back Knuckle"
+      },
+      {
+        "name": "Front Step",
+        "input": ":df:",
+        "after": "Back Knuckle"
+      },
+      {
+        "name": "Bridge Sway",
+        "input": ":qcb:+[E]"
+      },
+      {
+        "name": "Bridge Sway Upper",
+        "input": ":u:+[A] {or} [C]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Gai Wheel",
+        "input": ":u:+[B] {or} [D]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Back Knuckle",
+        "input": ":b:+[A] {or} [C]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Back Tornado",
+        "input": ":b:+[B] {or} [D]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Frog Down",
+        "input": ":d:+[A] {or} [C]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Slider",
+        "input": ":d:+[B] {or} [D]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Front Step",
+        "input": ":f:+[A] {or} [B] {or} [C] {or} [D] ({upTo2x})",
+        "after": "Bridge Sway",
+        "extraInfo": "{bsFrontStep}"
+      },
+      {
+        "name": "Gai Spider",
+        "input": ":hcf:+[E]",
+        "after": "Bridge Sway"
+      },
+      {
+        "name": "Frog Down",
+        "input": ":d::d:+[A] {or} [C]"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":u:",
+        "after": "Frog Down"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Lonely Ring",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Rush",
+        "input": ":qcf::qcf:+[B] {or} [D], {then} :f: > :f: > :b: > :df: > :u: > :f: > :d: > :f:"
+      },
+      {
+        "name": "Rush Finish",
+        "input": ":u: {or} :b: {or} :d:",
+        "after": "Rush"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Grudge Match",
+        "input": ":qcf::qcf:+[E]"
+      },
+      {
+        "name": "Slider",
+        "input": ":df:+[B]",
+        "after": "Grudge Match"
+      },
+      {
+        "name": "Knee Upper",
+        "input": ":df:+[D]",
+        "after": "Grudge Match"
+      },
+      {
+        "name": "Gai Driller",
+        "input": ":dp:+[A] {or} [C]",
+        "after": "Grudge Match"
+      },
+      {
+        "name": "Gai Wheel",
+        "input": ":qcb:+[B] {or} [D]",
+        "after": "Grudge Match"
+      },
+      {
+        "name": "Gai Spider",
+        "input": ":hcf:+[E]",
+        "after": "Grudge Match"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "bsFrontStep": "if done with [A] {or} [C], can be followed with the [B] {or} [D] version and vice-versa"
+    },
+    "portuguese": {
+      "bsFrontStep": "se feito com [A] {or} [C], pode ser seguido da versão com [B] {or} [D] e vice-versa"
+    }
+  }
+}
