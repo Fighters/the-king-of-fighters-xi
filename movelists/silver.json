@@ -1,0 +1,71 @@
+{
+  "names": {
+    "default": {
+      "roman": "Silver"
+    },
+    "japan": {
+      "roman": "Silver",
+      "original": "ズィルバー"
+    }
+  },
+  "images": {
+    "face": "silver.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tatakitsuke",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Back Tenohira Soko",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Tobi Hizageri",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Nidangeri",
+        "input": "[B]",
+        "after": "Tobi Hizageri"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Cho Sarugeri",
+        "input": "{charge} :b: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Kyukoka Kakato Otoshi",
+        "input": "{charge} :d: :u:+[B] {or} [D]"
+      },
+      {
+        "name": "Onihudonagashi",
+        "input": ":qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Rangeki",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Cho Kakato Otoshi",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Cho Onihudonagashi",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Chozetsu Sarugeri",
+        "input": "{charge} :b: :f::b::f:+[E]"
+      }
+    ]
+  }
+}
