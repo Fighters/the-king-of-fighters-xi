@@ -1,0 +1,82 @@
+{
+  "names": {
+    "default": {
+      "roman": "Jazu"
+    },
+    "japan": {
+      "roman": "Jazu",
+      "original": "ジャズウ"
+    }
+  },
+  "images": {
+    "face": "jazu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubiori Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Buki Kogeki - Tachi",
+        "input": ":f:+[C]"
+      },
+      {
+        "name": "Buki Kogeki - Shagami",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Haisuikyokansatsu",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Mikazuki",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Jaenma",
+        "input": ":d::u:+[A] {or} [C]"
+      },
+      {
+        "name": "Goendan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Goten",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Kamaitachi",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "Mudo Suiryuha",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Mudo Tenrinso",
+        "input": "{duringJumpNearWall}, :b:+[C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Kageroken",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Kagerokyaku",
+        "input": ":hcb::f:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Jaga Zetsumeichu",
+        "input": ":hcb::f:+[E]"
+      }
+    ]
+  }
+}
