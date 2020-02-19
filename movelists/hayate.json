@@ -1,0 +1,99 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hayate"
+    },
+    "japan": {
+      "roman": "Hayate",
+      "original": "ショー・ハヤテ"
+    }
+  },
+  "images": {
+    "face": "hayate.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ate Otoshi",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hiji Ate",
+        "input": ":b:+[C]"
+      },
+      {
+        "name": "Hikon Sokoashi",
+        "input": "{close}, :f:+[C]"
+      },
+      {
+        "name": "Hikon Kesagiri",
+        "input": "{far}, :f:+[C]"
+      },
+      {
+        "name": "Hikon Ashibarai",
+        "input": "{close}, :df:+[C]"
+      },
+      {
+        "name": "Hikon Nanamegiri",
+        "input": "{far}, :df:+[C]"
+      },
+      {
+        "name": "Hikon Nanamegiri",
+        "input": "{inAir}, :b:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hikontojutsu",
+        "input": ":qcf:+[A] {or} [C] ({airOK})"
+      },
+      {
+        "name": "Kyoretsuzan",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Kyoretsuzan Followup",
+        "input": ":qcb:+[C]",
+        "after": "Kyoretsuzan"
+      },
+      {
+        "name": "Hitenshouokyaku",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Asukageri",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Kuchu Asukageri",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Reppusatsu",
+        "input": "{inAir}, :d:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Nendohikon",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Geneihikon",
+        "input": ":qcb::qcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Ougi! Musoranbu",
+        "input": ":qcf::df::qcb:+[E]"
+      },
+      {
+        "name": "Ougi! Musoranbu",
+        "input": ":hcb::f:+[E]"
+      }
+    ]
+  }
+}
