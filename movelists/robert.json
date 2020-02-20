@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Robert"
+    },
+    "japan": {
+      "roman": "Robert",
+      "original": "ロバート・ガルシア"
+    }
+  },
+  "images": {
+    "face": "robert.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubikiri Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Koryu Kokyaku Geri",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Uraken",
+        "input": ":b:+[A]"
+      },
+      {
+        "name": "Ryuhanshu",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Mach Geri",
+        "input": ":b:+[B]"
+      },
+      {
+        "name": "Mach Feint",
+        "input": ":b:+{hold} [B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ryugekiken (Jodan)",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryugekiken (Gedan)",
+        "input": "{charge} :b: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Ryuzansho",
+        "input": "{charge} :d: :u:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Senpukyaku",
+        "input": ":qcb:+[B] {or} [D] ({upTo4x})"
+      },
+      {
+        "name": "Hien Senpukyaku Finish",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Hien Senpukyaku"
+      },
+      {
+        "name": "Geneikyaku",
+        "input": ":f::b::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Ryujinkyaku",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Kuzuryusen",
+        "input": ":qcf::qcf:+[E]"
+      }
+    ]
+  }
+}
