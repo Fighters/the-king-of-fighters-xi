@@ -1,0 +1,163 @@
+{
+  "names": {
+    "default": {
+      "roman": "Shion"
+    },
+    "japan": {
+      "roman": "Shion",
+      "original": "紫苑"
+    }
+  },
+  "images": {
+    "face": "shion.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hakkei",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]",
+        "extraInfo": "{shionUnarmed}"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Zensotai",
+        "input": ":d:+[B] > :d:+[B]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":d:+[B] > :d:+[D] {or} :d:+[B] > :d:+[B] > :d:+[D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Ryu Omoriya",
+        "input": ":df:+[D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Ryu Omoriya (Jodan)",
+        "input": ":df:+[D] > :f:+[D] {or}, {far}, [D] > :f:+[D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Ryu Omoriya (Gedan)",
+        "input": ":df:+[D] > :b:+[D] {or}, {far}, [D] > :b:+[D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Zentsuki",
+        "input": ":f:+[A]",
+        "extraInfo": "{shionSpear}"
+      },
+      {
+        "name": "Ashibarai",
+        "input": ":df:+[D]",
+        "extraInfo": "{shionSpear}"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Botsusen",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kuchu Botsusen",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Mukade Taihoken",
+        "input": ":dp:+[A] {or} [C]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Kuchu Yaritsukami",
+        "input": "{charge} :d: :u:+[B] {or} [D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Soha",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Koho Tenshin",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Nanken Punch",
+        "input": ":qcb:+[E]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Ryuseikyaku",
+        "input": ":dp:+[B] {or} [D]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Yaritsukami",
+        "input": ":qcf:+[E]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Fusemi",
+        "input": ":d::d:+[E]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Tategiri",
+        "input": ":qcf:+[B] {or} [D]",
+        "extraInfo": "{shionSpear}"
+      },
+      {
+        "name": "Engokyusha",
+        "input": ":qcf:+[taunt]",
+        "extraInfo": "{shionSpear}"
+      },
+      {
+        "name": "Tatakitsuke",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{shionSpear}"
+      },
+      {
+        "name": "Yarinage",
+        "input": ":dp:+[E]",
+        "extraInfo": "{shionSpear}"
+      },
+      {
+        "name": "Hotsuiso",
+        "input": ":dp:+[taunt]",
+        "extraInfo": "{shionSpear}"
+      }      
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Sosuisen",
+        "input": ":qcf::qcf:+[A] {or} [C]",
+        "extraInfo": "{shionUnarmed}"
+      },
+      {
+        "name": "Gabisensou",
+        "input": ":qcf::qcf:+[B] {or} [D]",
+        "extraInfo": "{shionSpear}"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Ryuseihekirekika",
+        "input": ":qcf::qcf:+[E]",
+        "extraInfo": "{shionUnarmed}"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "shionUnarmed": "acessible only when Shion is unarmed",
+      "shionSpear": "acessible only when Shion has the spear"
+    },
+    "portuguese": {
+      "shionUnarmed": "só pode ser feito quando Shion está desarmado",
+      "shionSpear": "só pode ser feito quando Shion está com a lança"
+    }
+  }
+}
