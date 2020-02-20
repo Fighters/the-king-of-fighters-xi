@@ -1,0 +1,195 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hotaru"
+    },
+    "japan": {
+      "roman": "Hotaru",
+      "original": "双葉 ほたる"
+    }
+  },
+  "images": {
+    "face": "hotaru.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tenrakuto",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      },
+      {
+        "name": "Hantento",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Sengekishu",
+        "input": ":f:+[B]",
+        "extraInfo": "{hotaruStance1}"
+      },
+      {
+        "name": "Sengeki Shu",
+        "input": ":df:+[C]",
+        "extraInfo": "{hotaruStance2}"
+      },
+      {
+        "name": "Koshuda",
+        "input": "{inAir}, :d:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hakkisho",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Tenshinsho",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Rengekishu",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Kobikyaku",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Breaking",
+        "input": "[A]+[B]",
+        "after": "Kobikyaku"
+      },
+      {
+        "name": "Soshoshin",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Breaking",
+        "input": "[A]+[B]",
+        "after": "Soshoshin"
+      },
+      {
+        "name": "Shajotai",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Breaking",
+        "input": "[A]+[B]",
+        "after": "Shajotai"
+      },
+      {
+        "name": "En Un Jurokushu Stance",
+        "input": ":d::d:+[A]",
+        "extraInfo": "{hotaruStance1}"
+      },
+      {
+        "name": "Tanshoshin",
+        "input": "[A]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "En Un Kaso",
+        "input": "[B]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Engan Soshoda",
+        "input": "[C] > [A]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Ryu Ensenkyaku",
+        "input": "[D]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Sensoenbu",
+        "input": ":d:+[D] > :f:+[B]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Senkaien",
+        "input": ":u:+[B] {or} [D]",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Cancel",
+        "input": ":b::b:",
+        "after": "En Un Jurokushu Stance"
+      },
+      {
+        "name": "Ri En Stance",
+        "input": ":d::d:+[B]",
+        "extraInfo": "{hotaruStance2}"
+      },
+      {
+        "name": "Enryu Banda",
+        "input": "[A]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Breaking",
+        "input": "[A]+[B]",
+        "after": "Enryu Banda"
+      },
+      {
+        "name": "Enjinkyaku",
+        "input": "[B]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Haigekishu",
+        "input": "[C]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Enbikyaku",
+        "input": "[D]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Breaking",
+        "input": "[A]+[B]",
+        "after": "Enbikyaku"
+      },
+      {
+        "name": "Haishin Tenrakuto",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Ri En Ryubu",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Ri En Stance"
+      },
+      {
+        "name": "Cancel",
+        "input": ":b::b:",
+        "after": "Ri En Stance"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Sosho Tenrenge",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Tenshoranki",
+        "input": ":qcf::qcf:+[E]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "hotaruStance1": "makes Hotaru enter the En Un Jurokushu stance",
+      "hotaruStance2": "makes Hotaru enter the Ri En stance"
+    },
+    "portuguese": {
+      "hotaruStance1": "faz Hotaru ficar na pose En Un Jurokushu",
+      "hotaruStance2": "faz Hotaru ficar na pose Ri En"
+    }
+  }
+}
