@@ -1,0 +1,66 @@
+{
+  "names": {
+    "default": {
+      "roman": "Magaki"
+    },
+    "japan": {
+      "roman": "Magaki",
+      "original": "禍忌"
+    }
+  },
+  "images": {
+    "face": "magaki.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ignition",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Despise",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Phantom Sphere",
+        "input": ":f::hcf:+[A] {or} [B] {or} [C]"
+      },
+      {
+        "name": "Exploding Sphere",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Dimension Sphere",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Dimension Claw",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Somewhere Hole",
+        "input": ":hcb:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "Somewhere Hole (Air)",
+        "input": "{inAir}, :hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Vanish",
+        "input": ":d::d:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Universe Distortion",
+        "input": ":qcf::df::qcb:+[E]"
+      }
+    ]
+  }
+}
