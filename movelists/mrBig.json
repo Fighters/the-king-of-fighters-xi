@@ -1,0 +1,66 @@
+{
+  "names": {
+    "default": {
+      "roman": "Mr. Big"
+    },
+    "japan": {
+      "roman": "Mr. Big",
+      "original": "Mr. ビッグ"
+    }
+  },
+  "images": {
+    "face": "mrBig.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Highlift Throw",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Chopstick",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Crazy Drum",
+        "input": ":qcf:+[B] {or} [D] ({tap} [B] {or} [D] {repeatedly} {forMoreHits})"
+      },
+      {
+        "name": "Ground Blaster",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "California Romance",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Cross Diving",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Spinning Lancer",
+        "input": ":hcb:+[B] {or} [D] ({use} :b: {or} :f: {toMove})"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Blaster Wave",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Drum Shot Typhoon",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMove}": [
+      {
+        "name": "Rising Spear",
+        "input": ":hcb::hcb:+[E]"
+      }
+    ]
+  }
+}
