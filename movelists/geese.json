@@ -1,0 +1,92 @@
+{
+  "names": {
+    "default": {
+      "roman": "Geese"
+    },
+    "japan": {
+      "roman": "Geese",
+      "original": "ギース・ハワード"
+    }
+  },
+  "images": {
+    "face": "geese.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Toraya",
+        "input": "{close}, :b: {or} :f:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Reppuken",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Double Reppuken",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Shippuken",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hisho Nichirinzan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Jaeiken",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shinku Nage",
+        "input": ":hcb::f:+[C]"
+      },
+      {
+        "name": "Jodan Atemi",
+        "input": ":hcb:+[B]"
+      },
+      {
+        "name": "Chudan Atemi",
+        "input": ":hcb:+[D]"
+      },
+      {
+        "name": "Gedan Atemi",
+        "input": ":hcb:+[E]"
+      },
+      {
+        "name": "Raimei Goha Nage",
+        "input": "{nearFallenOpponent}, :df:+[C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Raging Storm",
+        "input": ":db::hcb::df:+[A] {or} [C]"
+      },
+      {
+        "name": "Rashomon",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Latent Raging Storm",
+        "input": ":db::hcb::df:+[E]"
+      },
+      {
+        "name": "Deadly Rave",
+        "input": ":hcb::f:+[E], {then} [A] > [A] > [B] > [B] > [C] > [C] > [D] > [D] > :qcb:+[E]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "nearFallenOpponent": "near a knocked down opponent"
+    },
+    "portuguese": {
+      "nearFallenOpponent": "próximo a um oponente caído"
+    }
+  }
+}
