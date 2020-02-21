@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Tung"
+    },
+    "japan": {
+      "roman": "Tung",
+      "original": "タン・フー・ルー"
+    }
+  },
+  "images": {
+    "face": "tung.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ressensho",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Korin Yabu",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Senshippo",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Senshippo Harasho",
+        "input": ":qcb:+[E]"
+      },
+      {
+        "name": "Ressenkyaku",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Ressenkyaku Bravo",
+        "input": ":dp:+[E]"
+      },
+      {
+        "name": "Shoha",
+        "input": "{charge} :b: :f:+[A]"
+      },
+      {
+        "name": "Dai Shoha",
+        "input": "{charge} :b: :f:+[C]"
+      },
+      {
+        "name": "Gekiho",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Kuchu Senpuken",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Jujiken",
+        "input": "{inAir}, :qcb:+[C]"
+      },
+      {
+        "name": "Raimeikyaku",
+        "input": "{duringVerticalOrForwardJump}, :qcb:+[B]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Senpugoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Dai Gekiho",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{leaderDesperationMoves}": [
+      {
+        "name": "Cho Shoha",
+        "input": ":qcf::qcf:+[E] ({hold} [E] {toDelay})"
+      }
+    ]
+  }
+}
