@@ -63,7 +63,7 @@
       },
       {
         "name": "Puncher Vision (Forward)",
-        "input": ":b:+[B] {or} [D]",
+        "input": ":f:+[B] {or} [D]",
         "after": "Puncher Weaving"
       },
       {

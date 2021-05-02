@@ -30,7 +30,7 @@
     ],
     "{specialMoves}": [
       {
-        "name": "Étincelle",
+        "name": "Étincelles",
         "input": ":qcf:+[A] {or} [C]"
       },
       {
@@ -54,7 +54,7 @@
     ],
     "{leaderDesperationMove}": [
       {
-        "name": "Noble Blanc",
+        "name": "Noble Blanche",
         "input": ":qcf::qcf:+[E]"
       }
     ]
