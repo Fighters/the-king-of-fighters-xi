@@ -73,7 +73,7 @@
     "{leaderDesperationMove}": [
       {
         "name": "Power Stream",
-        "input": ":qcb::db::qcf:+[A]+[C]"
+        "input": ":qcb::db::qcf:+[E]"
       }
     ]
   }
