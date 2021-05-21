@@ -1,0 +1,519 @@
+[
+	{
+		"name": "Ash",
+		"repository": "",
+		"movelist": "ash.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "アッシュ・クリムゾン"
+			}
+		]
+	},
+	{
+		"name": "Oswald",
+		"repository": "",
+		"movelist": "oswald.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "オズワルド"
+			}
+		]
+	},
+	{
+		"name": "Shen",
+		"repository": "",
+		"movelist": "shen.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "シェン・ウー"
+			}
+		]
+	},
+	{
+		"name": "Terry",
+		"repository": "",
+		"movelist": "terry.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "テリー・ボガード"
+			}
+		]
+	},
+	{
+		"name": "Kim",
+		"repository": "",
+		"movelist": "kim.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "キム・カッファン"
+			}
+		]
+	},
+	{
+		"name": "Duck",
+		"repository": "",
+		"movelist": "duck.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ダック・キング"
+			}
+		]
+	},
+	{
+		"name": "K'",
+		"repository": "",
+		"movelist": "k.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ケイ・ダッシュ"
+			}
+		]
+	},
+	{
+		"name": "Kula",
+		"repository": "",
+		"movelist": "kula.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "クーラ・ダイアモンド"
+			}
+		]
+	},
+	{
+		"name": "Maxima",
+		"repository": "",
+		"movelist": "maxima.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "マキシマ"
+			}
+		]
+	},
+	{
+		"name": "Jenet",
+		"repository": "",
+		"movelist": "jenet.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "B・ジェニー"
+			}
+		]
+	},
+	{
+		"name": "Gato",
+		"repository": "",
+		"movelist": "gato.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "牙刀"
+			}
+		]
+	},
+	{
+		"name": "Tizoc",
+		"also-known-as": [
+			"Griffon",
+			"The Griffon",
+			"Griffon Mask"
+		],
+		"repository": "",
+		"movelist": "tizoc.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "グリフォンマスク"
+			}
+		]
+	},
+	{
+		"name": "Kyo",
+		"repository": "",
+		"movelist": "kyo.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "草薙 京"
+			}
+		]
+	},
+	{
+		"name": "Iori",
+		"repository": "",
+		"movelist": "iori.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "八神 庵"
+			}
+		]
+	},
+	{
+		"name": "Shingo",
+		"repository": "",
+		"movelist": "shingo.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "矢吹 真吾"
+			}
+		]
+	},
+	{
+		"name": "Vanessa",
+		"repository": "",
+		"movelist": "vanessa.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ヴァネッサ"
+			}
+		]
+	},
+	{
+		"name": "Mary",
+		"repository": "",
+		"movelist": "mary.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ブルー・マリー"
+			}
+		]
+	},
+	{
+		"name": "Ramon",
+		"repository": "",
+		"movelist": "ramon.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ラモン"
+			}
+		]
+	},
+	{
+		"name": "Ralf",
+		"repository": "",
+		"movelist": "ralf.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ラルフ・ジョーンズ"
+			}
+		]
+	},
+	{
+		"name": "Clark",
+		"repository": "",
+		"movelist": "clark.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "クラーク・スティル"
+			}
+		]
+	},
+	{
+		"name": "Whip",
+		"repository": "",
+		"movelist": "whip.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ウィップ"
+			}
+		]
+	},
+	{
+		"name": "Ryo",
+		"repository": "",
+		"movelist": "ryo.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "リョウ・サカザキ"
+			}
+		]
+	},
+	{
+		"name": "Yuri",
+		"repository": "",
+		"movelist": "yuri.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ユリ・サカザキ"
+			}
+		]
+	},
+	{
+		"name": "King",
+		"repository": "",
+		"movelist": "king.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "キング"
+			}
+		]
+	},
+	{
+		"name": "Malin",
+		"repository": "",
+		"movelist": "malin.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "まりん"
+			}
+		]
+	},
+	{
+		"name": "Kasumi",
+		"repository": "",
+		"movelist": "kasumi.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "藤堂 香澄"
+			}
+		]
+	},
+	{
+		"name": "Eiji",
+		"repository": "",
+		"movelist": "eiji.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "如月 影二"
+			}
+		]
+	},
+	{
+		"name": "Elisabeth",
+		"repository": "",
+		"movelist": "elisabeth.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "エリザベート・ブラントルシュ"
+			}
+		]
+	},
+	{
+		"name": "Duo Lon",
+		"repository": "",
+		"movelist": "duolon.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "デュオロン"
+			}
+		]
+	},
+	{
+		"name": "Benimaru",
+		"repository": "",
+		"movelist": "benimaru.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "二階堂 紅丸"
+			}
+		]
+	},
+	{
+		"name": "Athena",
+		"repository": "",
+		"movelist": "athena.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "麻宮 アテナ"
+			}
+		]
+	},
+	{
+		"name": "Kensou",
+		"repository": "",
+		"movelist": "kensou.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "椎 拳崇"
+			}
+		]
+	},
+	{
+		"name": "Momoko",
+		"repository": "",
+		"movelist": "momoko.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "桃子"
+			}
+		]
+	},
+	{
+		"name": "Adel",
+		"repository": "",
+		"movelist": "adel.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "アーデルハイド・バーンシュタイン"
+			}
+		]
+	},
+	{
+		"name": "Gai",
+		"repository": "",
+		"movelist": "gai.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "天童 凱"
+			}
+		]
+	},
+	{
+		"name": "Hayate",
+		"repository": "",
+		"movelist": "hayate.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ショー・ハヤテ"
+			}
+		]
+	},
+	{
+		"name": "Silver",
+		"also-known-as": [
+			"Silber"
+		],
+		"repository": "",
+		"movelist": "silver.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ズィルバー"
+			}
+		]
+	},
+	{
+		"name": "Jazu",
+		"also-known-as": [
+			"Jyazu"
+		],
+		"repository": "",
+		"movelist": "jazu.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ジャズウ"
+			}
+		]
+	},
+	{
+		"name": "Shion",
+		"repository": "",
+		"movelist": "shion.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "紫苑"
+			}
+		]
+	},
+	{
+		"name": "Magaki",
+		"repository": "",
+		"movelist": "magaki.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "禍忌"
+			}
+		]
+	},
+	{
+		"name": "Robert",
+		"repository": "",
+		"movelist": "robert.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ロバート・ガルシア"
+			}
+		]
+	},
+	{
+		"name": "Mai",
+		"repository": "",
+		"movelist": "mai.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "不知火 舞"
+			}
+		]
+	},
+	{
+		"name": "Hotaru",
+		"repository": "",
+		"movelist": "hotaru.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "双葉 ほたる"
+			}
+		]
+	},
+	{
+		"name": "Tung",
+		"repository": "",
+		"movelist": "tung.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "タン・フー・ルー"
+			}
+		]
+	},
+	{
+		"name": "Mr. Big",
+		"repository": "",
+		"movelist": "mrBig.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "Mr. ビッグ"
+			}
+		]
+	},
+	{
+		"name": "Geese",
+		"repository": "",
+		"movelist": "geese.json",
+		"names": [
+			{
+				"region": "japan",
+				"name": "ギース・ハワード"
+			}
+		]
+	}
+]
